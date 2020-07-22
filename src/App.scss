@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "./scss/index.scss";
 
 .success {
@@ -9,3 +10,16 @@
   border: 1px solid $error;
   background-color: $background-error;
 }
+=======
+@import "./scss/index.scss";
+
+.success {
+  border: 1px solid $success;
+  background-color: $background-success;
+}
+
+.error {
+  border: 1px solid $error;
+  background-color: $background-error;
+}
+>>>>>>> e9bcb189032465d540a18c086ab5ecb09066414e

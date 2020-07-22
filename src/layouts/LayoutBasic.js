@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import { Layout } from "antd";
@@ -37,3 +38,44 @@ function LoadRoutes({ routes }) {
     </Switch>
   );
 }
+=======
+import React from "react";
+import { Route, Switch } from "react-router-dom";
+import { Layout } from "antd";
+
+import "./LayoutBasic.scss";
+
+export default function LayoutBasic(props) {
+  const { routes } = props;
+  const { Content, Footer } = Layout;
+
+  //console.log(props);
+
+  return (
+    <Layout>
+      <h2>Menu....</h2>
+      <Layout>
+        <Content>
+          <LoadRoutes routes={routes} />
+        </Content>
+        <Footer>Imanol Bernardino Alonso</Footer>
+      </Layout>
+    </Layout>
+  );
+}
+
+function LoadRoutes({ routes }) {
+  return (
+    <Switch>
+      {routes.map((route, index) => (
+        <Route
+          key={index}
+          path={route.path}
+          exact={route.exact}
+          component={route.component}
+        />
+      ))}
+    </Switch>
+  );
+}
+>>>>>>> e9bcb189032465d540a18c086ab5ecb09066414e

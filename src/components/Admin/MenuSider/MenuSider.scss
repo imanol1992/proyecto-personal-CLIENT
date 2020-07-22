@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "../../../scss/index.scss";
 
 .admin-sider {
@@ -7,3 +8,14 @@
   height: 100vh;
   overflow: auto;
 }
+=======
+@import "../../../scss/index.scss";
+
+.admin-sider {
+  position: fixed;
+  left: 0;
+  top: 60px;
+  height: 100vh;
+  overflow: auto;
+}
+>>>>>>> e9bcb189032465d540a18c086ab5ecb09066414e
