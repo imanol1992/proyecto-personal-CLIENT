@@ -1172,6 +1172,11 @@
   resolved "https://registry.yarnpkg.com/@icon/ant-design-outline-icons/-/ant-design-outline-icons-4.1.0-alpha.0.tgz#ce6781fc6cb3addc2f90e75e855378dd3b87dd97"
   integrity sha512-ONNl7cZnhyKZnEUoeuVC1UYkUXiALCuhtnIjIhxW5cPP3z3IU1XtewiUdKLi9jwRQkFxcwbcL9NlHp/Ep2NjuA==
 
+"@interactjs/types@1.9.20":
+  version "1.9.20"
+  resolved "https://registry.yarnpkg.com/@interactjs/types/-/types-1.9.20.tgz#ed7cb6d4f865c00867cc0b03bb030cf8062894ff"
+  integrity sha512-Pc0//Ha9+peuJzvnVN8TScWgIHRk7ehf+PPV2vwRQkcmsYgiGDy+sxSDbjB/25jJxrgaj/I4lLyRZEw1Wdve9Q==
+
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/@jest/console/-/console-24.9.0.tgz#79b1bc06fb74a8cfb01cbdedf945584b1b9707f0"
@@ -2318,6 +2323,11 @@ atob@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
+
+attr-accept@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/attr-accept/-/attr-accept-2.1.0.tgz#a231a854385d36ff7a99647bb77b33c8a5175aee"
+  integrity sha512-sLzVM3zCCmmDtDNhI0i96k6PUztkotSOXqE4kDGQt/6iDi5M+H0srjeF+QC6jN581l4X/Zq3Zu/tgcErEssavg==
 
 autoprefixer@^9.6.1:
   version "9.7.4"
@@ -4659,6 +4669,13 @@ file-loader@4.3.0:
     loader-utils "^1.2.3"
     schema-utils "^2.5.0"
 
+file-selector@^0.1.12:
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/file-selector/-/file-selector-0.1.12.tgz#fe726547be219a787a9dcc640575a04a032b1fd0"
+  integrity sha512-Kx7RTzxyQipHuiqyZGf+Nz4vY9R1XGxuQl/hLoJwq+J4avk/9wxxgZyHKtbyIPJmbD4A66DWGYfyykWNpcYutQ==
+  dependencies:
+    tslib "^1.9.0"
+
 file-uri-to-path@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz#553a7b8446ff6f684359c445f1e37a05dacc33dd"
@@ -5605,6 +5622,13 @@ insert-css@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/insert-css/-/insert-css-2.0.0.tgz#eb5d1097b7542f4c79ea3060d3aee07d053880f4"
   integrity sha1-610Ql7dUL0x56jBg067gfQU4gPQ=
+
+interactjs@^1.2.8:
+  version "1.9.20"
+  resolved "https://registry.yarnpkg.com/interactjs/-/interactjs-1.9.20.tgz#a23fbd41f09ab4373a5c2ee888a6f09f59b7786c"
+  integrity sha512-PxKinDWxutsLDOuZEXRmq6WUhdK3/82IIiC4tisNY/pMgPaUI/F564RxdmrTEw9ukYh+DSE8Gb9owQdA1pdo0g==
+  dependencies:
+    "@interactjs/types" "1.9.20"
 
 internal-ip@^4.3.0:
   version "4.3.0"
@@ -6845,6 +6869,11 @@ lodash.uniq@^4.5.0:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+
+lodash@^4.17.4:
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 loglevel@^1.6.6:
   version "1.6.7"
@@ -9416,6 +9445,23 @@ react-dom@^16.13.1:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.19.1"
+
+react-drag-sortable@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/react-drag-sortable/-/react-drag-sortable-1.0.6.tgz#8e979772b2a759b3ed3cb0afcc5cd677457b010c"
+  integrity sha512-EO0pYDMbI9vPT8TXJ3D7fZ58BYQ2F9WPzNkoE+IuKExzZ8Ab0RfoenpZAk55i15XeD/K7+dI7JRPnxvXI7DCIQ==
+  dependencies:
+    interactjs "^1.2.8"
+    lodash "^4.17.4"
+
+react-dropzone@^11.0.2:
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/react-dropzone/-/react-dropzone-11.0.2.tgz#1a4084f520c2eafbeb24026760b3ee8f3759cfd3"
+  integrity sha512-/Wde9Il1aJ1FtWllg3N2taIeJh4aftx6UGUG8R1TmLnZit2RnDcEjcKwEEbKwgLXTTh8QQpiZWQJq45jTy1jCA==
+  dependencies:
+    attr-accept "^2.0.0"
+    file-selector "^0.1.12"
+    prop-types "^15.7.2"
 
 react-error-overlay@^6.0.7:
   version "6.0.7"

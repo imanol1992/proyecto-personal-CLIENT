@@ -7,9 +7,9 @@
   background-size: cover;
 
   &__content {
-    display: flex ;
+    display: flex;
     flex-direction: column;
-    align-items: center ;
+    align-items: center;
     min-height: 100vh;
 
     &-logo {
@@ -21,30 +21,35 @@
 
     &-tabs {
       background-color: $background-light;
+      // display: block !important;
 
       .ant-tabs {
+        width: 90vw;
         @media (min-width: $media-breackpoint-up-lg) {
-          width: auto;
+          width: 400px !important;
+          // height: 100% !important;
         }
       }
-      
-      .ant-tabs-nav-container {
-        height: 60px !important;
-      }
-      .ant-tabs-nav {
+
+      // .ant-tabs-nav-wrap {
+      //   height: 100% !important;
+      //   width: 300px !important;
+      // }
+
+      .ant-tabs-nav-list {
         width: 100%;
       }
 
       .ant-tabs-tab {
-        width: 50%;
-        height: 60px !important;
+        width: 300px;
+        height: 100% !important;
         text-align: center;
         font-size: 0em + 19px / $defaultFontSize;
         border-top: 4px solid $border-grey !important;
         border-radius: 0 !important;
         margin: 0 !important;
-        @media (min-width: $media-breackpoint-up-lg) {
-          width: 220px;
+        @media (min-width: $media-breackpoint-up-md) {
+          width: 400px;
           font-size: 0em + 23px / $defaultFontSize;
         }
 
@@ -61,7 +66,7 @@
           justify-content: center;
         }
       }
-      
+
       .ant-tabs-tab-active {
         color: $primary-color !important;
         border-top: 4px solid $primary-color !important;
@@ -70,13 +75,13 @@
         border-left: 0 !important;
         // width: 20vw;
         // @media (min-width: $media-breackpoint-up-xs) {
-          //   min-width: 27vw;
-          // }
-        }
-        
-        .ant-tabs-content {
-          padding: 0 16px 16px 16px;
-          text-align: center;
+        //   min-width: 27vw;
+        // }
+      }
+
+      .ant-tabs-content {
+        padding: 0 16px 16px 16px;
+        text-align: center;
       }
     }
   }
